@@ -17,7 +17,6 @@ public class Main {
         System.out.println();
         printArr(arr);
         printResultInFile(arr);
-
     }
 
     private static void printArr(int[][] arr) {
@@ -96,7 +95,6 @@ public class Main {
             }
             negativeIndex++;
         }
-
         //merge positive
         for (int row = 0; row < arr.length; row++) {
             for (int col = 0; col < positiveArr[0].length; col++) {
